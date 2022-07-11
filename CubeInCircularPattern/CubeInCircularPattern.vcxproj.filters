@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{38151bb1-eefb-4ca3-a577-8b8d28474fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{349ffa3d-e446-49d3-a588-5e934009a44f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileType.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Solid.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileType.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Solid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
